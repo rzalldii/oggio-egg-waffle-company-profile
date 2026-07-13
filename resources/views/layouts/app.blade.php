@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Oggio Egg Waffle — Kopi X Waffle | Surabaya')</title>
+    <title>@yield('title', 'Oggio Egg Waffle | Surabaya')</title>
     <meta name="description"
         content="@yield('meta_description', 'Oggio Egg Waffle — kedai kopi 100% Arabica dan Hong Kong egg waffle di Jl. Siwalankerto No. 128A, Surabaya. Kopi X Waffle mulai Rp10.000. Halal Indonesia. Order online sekarang!')">
     <meta name="keywords"
@@ -14,7 +14,7 @@
 
     {{-- Open Graph --}}
     <meta property="og:type" content="website">
-    <meta property="og:title" content="@yield('og_title', 'Oggio Egg Waffle — Kopi X Waffle')">
+    <meta property="og:title" content="@yield('og_title', 'Oggio Egg Waffle')">
     <meta property="og:description"
         content="@yield('og_description', 'Kedai kopi 100% Arabica & Hong Kong egg waffle di Surabaya. Halal Indonesia. Order online via oggioeggwaffle.id')">
     <meta property="og:image" content="{{ asset('images/logo/oggio-logo.png') }}">

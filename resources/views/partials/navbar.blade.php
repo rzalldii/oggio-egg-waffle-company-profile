@@ -12,9 +12,9 @@
             <a href="#menu-favorit">Menu</a>
             <a href="#galeri">Galeri</a>
             <a href="#lokasi">Lokasi</a>
-            <a href="https://oggioeggwaffle.id" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
+            <!-- <a href="https://oggioeggwaffle.id" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
                 Order Sekarang
-            </a>
+            </a> -->
         </nav>
 
         <div class="navbar__actions">

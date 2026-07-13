@@ -1,6 +1,6 @@
 <footer class="site-footer" id="footer">
     <div class="container">
-        <div class="franchise-strip" style="margin-bottom: var(--space-xl);">
+        <!-- <div class="franchise-strip" style="margin-bottom: var(--space-xl);">
             <div>
                 <h3 class="h-display-md">Tertarik Buka Cabang Oggio?</h3>
                 <p>Hubungi kami untuk info kemitraan / franchise Oggio Egg Waffle.</p>
@@ -9,12 +9,12 @@
                 target="_blank" rel="noopener" class="btn btn-outline-light">
                 Info Kemitraan
             </a>
-        </div>
+        </div> -->
 
         <div class="footer__grid">
             <div>
                 <div class="footer__brand">
-                    <img src="{{ asset('images/logo/oggio-logo.jpg') }}" alt="Logo Oggio Egg Waffle" width="40"
+                    <img src="{{ asset('images/logo/oggio-logo.png') }}" alt="Logo Oggio Egg Waffle" width="40"
                         height="40" loading="lazy">
                     <span>Oggio Egg Waffle</span>
                 </div>
