@@ -13,7 +13,6 @@
             <span class="section-eyebrow">Kata Mereka</span>
             <h2 class="h-display-lg">Apa Kata Pelanggan</h2>
         </div>
-
         <div class="testimonial-grid">
             @foreach ($testimonials as $t)
                 <div class="testimonial-card">

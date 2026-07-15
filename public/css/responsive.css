@@ -5,6 +5,7 @@
 
 /* ---------- Tablet & below (<= 1024px) ---------- */
 @media (max-width: 1024px) {
+
   .trust-grid,
   .menu-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -124,19 +125,16 @@
   .footer__brand,
   .footer__social {
     justify-content: center;
+    width: fit-content;
+    margin-inline: auto;
+  }
+
+  .footer__desc {
+    margin-inline: auto;
   }
 
   .section {
     padding: var(--space-xl) 0;
-  }
-
-  .floating-cta span.floating-cta__label {
-    display: none;
-  }
-
-  .floating-cta {
-    padding: 0.9rem;
-    border-radius: 50%;
   }
 }
 

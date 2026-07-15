@@ -17,7 +17,6 @@
             <span class="section-eyebrow">Cerita Visual</span>
             <h2 class="h-display-lg">Galeri Oggio</h2>
         </div>
-
         <div class="gallery-grid">
             @foreach ($galleryImages as $img)
                 <div class="gallery-item">

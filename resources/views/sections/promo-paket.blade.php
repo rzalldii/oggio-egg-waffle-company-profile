@@ -17,7 +17,6 @@
             <span class="section-eyebrow">Hemat di Kantong</span>
             <h2 class="h-display-lg">Paket Anti Gamud</h2>
         </div>
-
         <div class="promo-group">
             <h3 class="promo-group-title"><span aria-hidden="true">🎒</span> Pakmat — Paket Hemat</h3>
             <div class="promo-grid">
@@ -30,7 +29,6 @@
                 @endforeach
             </div>
         </div>
-
         <div class="promo-group">
             <h3 class="promo-group-title"><span aria-hidden="true">🎁</span> Bukmat — Paket Hemat Cheese</h3>
             <div class="promo-grid">

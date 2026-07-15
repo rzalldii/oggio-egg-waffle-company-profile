@@ -114,7 +114,6 @@
             <span class="section-eyebrow">Semua Ada di Sini</span>
             <h2 class="h-display-lg">Menu Lengkap Oggio</h2>
         </div>
-
         <div class="tab-group" role="tablist" aria-label="Kategori menu">
             @foreach ($categories as $key => $cat)
                 <button type="button" class="tab-pill @if($loop->first) is-active @endif" data-tab-target="panel-{{ $key }}"
@@ -123,7 +122,6 @@
                 </button>
             @endforeach
         </div>
-
         {{-- Kopi, Choco, Fresh, Matcha panels --}}
         @foreach (['kopi', 'choco', 'fresh', 'matcha'] as $key)
             <div class="tab-panel @if($key === 'kopi') is-active @endif" id="panel-{{ $key }}" role="tabpanel">
@@ -146,7 +144,6 @@
                 </div>
             </div>
         @endforeach
-
         {{-- Egg Waffle panel with 3 sub-groups --}}
         <div class="tab-panel" id="panel-egg-waffle" role="tabpanel">
             <div class="menu-full__panel-grid">
@@ -183,7 +180,6 @@
                     @endforeach
                 </div>
             </div>
-
             <div class="menu-full__panel-grid" style="margin-top:1.5rem;">
                 <div>
                     <h4 class="menu-full__col-title">New Mix Series</h4>

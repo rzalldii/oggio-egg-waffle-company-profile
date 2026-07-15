@@ -1,6 +1,5 @@
 <section id="home" class="hero">
     <div class="hero__bubbles" aria-hidden="true"></div>
-
     <div class="container hero__inner">
         <div class="hero__content">
             <span class="hero__eyebrow">🧇 Hong Kong Bubble Waffle & Kopi Arabica</span>
@@ -15,7 +14,6 @@
                     Sekarang</a>
             </div>
         </div>
-
         <div class="hero__visual">
             <div class="hero__image-wrap">
                 <img src="{{ asset('images/hero/oggio-hero-product.jpg') }}"
@@ -23,7 +21,6 @@
             </div>
         </div>
     </div>
-
     <div class="hero__divider" aria-hidden="true">
         <svg viewBox="0 0 1200 44" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
             <defs>

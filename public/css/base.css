@@ -58,7 +58,9 @@
 }
 
 /* ---------- Reset ---------- */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
@@ -71,7 +73,10 @@ html {
   html {
     scroll-behavior: auto;
   }
-  *, *::before, *::after {
+
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.001ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.001ms !important;
@@ -107,13 +112,17 @@ button {
   background: none;
 }
 
-ul, ol {
+ul,
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
   font-family: var(--font-display);
   font-weight: 700;
@@ -201,7 +210,8 @@ textarea:focus-visible {
 
 .visually-hidden {
   position: absolute !important;
-  width: 1px; height: 1px;
+  width: 1px;
+  height: 1px;
   overflow: hidden;
   clip: rect(0 0 0 0);
   white-space: nowrap;
@@ -209,7 +219,7 @@ textarea:focus-visible {
 
 /* ---------- Signature honeycomb/bubble pattern (reusable) ---------- */
 .bubble-pattern {
-  background-image: radial-gradient(circle, rgba(255,255,255,0.35) 0 3px, transparent 3px);
+  background-image: radial-gradient(circle, rgba(255, 255, 255, 0.35) 0 3px, transparent 3px);
   background-size: var(--bubble-size) var(--bubble-size);
   background-position: 0 0, calc(var(--bubble-size)/2) calc(var(--bubble-size)/2);
 }
