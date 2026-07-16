@@ -11,14 +11,6 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .promo-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .gallery-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
   .testimonial-grid {
     grid-template-columns: 1fr;
   }
@@ -102,13 +94,8 @@
   }
 
   .trust-grid,
-  .menu-grid,
-  .promo-grid {
+  .menu-grid {
     grid-template-columns: 1fr;
-  }
-
-  .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
   }
 
   .franchise-strip {
@@ -140,11 +127,6 @@
 
 /* ---------- Small mobile (<= 420px) ---------- */
 @media (max-width: 420px) {
-  .gallery-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.6rem;
-  }
-
   .tab-pill {
     padding: 0.55rem 1.1rem;
     font-size: 0.82rem;

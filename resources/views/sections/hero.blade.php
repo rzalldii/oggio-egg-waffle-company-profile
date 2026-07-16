@@ -2,21 +2,20 @@
     <div class="hero__bubbles" aria-hidden="true"></div>
     <div class="container hero__inner">
         <div class="hero__content">
-            <span class="hero__eyebrow">🧇 Hong Kong Bubble Waffle & Kopi Arabica</span>
-            <h1 class="h-display-xl hero__title">Kopi X Waffle,<br>Mulai Rp10.000!</h1>
+            <span class="hero__eyebrow"><i class="fa-solid fa-utensils"></i> Bubble Waffle & Kopi Arabica</span>
+            <h1 class="h-display-xl hero__title">Waffle X Kopi,<br>Mulai Rp10.000!</h1>
             <p class="hero__subtitle">
                 Egg waffle fresh dibuat per pesanan, dipadukan kopi 100% Arabica.
                 Halal Indonesia, harga bersahabat untuk anak muda Surabaya.
             </p>
             <div class="hero__actions">
                 <a href="#menu-favorit" class="btn btn-outline-light">Lihat Menu</a>
-                <a href="https://oggioeggwaffle.id" target="_blank" rel="noopener" class="btn btn-primary">Order
-                    Sekarang</a>
+                <a href="#order" class="btn btn-primary">Order Sekarang</a>
             </div>
         </div>
         <div class="hero__visual">
             <div class="hero__image-wrap">
-                <img src="{{ asset('images/hero/oggio-hero-product.jpg') }}"
+                <img src="{{ asset('images/hero/oggio-hero-product.png') }}"
                     alt="Egg waffle dan kopi Oggio siap disajikan" loading="eager" width="420" height="420">
             </div>
         </div>

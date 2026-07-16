@@ -152,47 +152,6 @@
   margin-bottom: 0.5rem;
 }
 
-/* ---------- Promo Paket (solid yellow block - echo PAKMAT/BUKMAT design) ---------- */
-.promo-paket {
-  background: var(--color-accent);
-}
-
-.promo-paket .section-eyebrow,
-.promo-paket .section-header h2 {
-  color: var(--color-text);
-}
-
-.promo-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-}
-
-.promo-group-title {
-  font-family: var(--font-display);
-  font-size: 1.4rem;
-  margin-bottom: 1.25rem;
-  color: var(--color-text);
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-}
-
-.promo-group+.promo-group {
-  margin-top: 2.5rem;
-}
-
-/* ---------- Gallery (surface) ---------- */
-.gallery {
-  background: var(--color-surface);
-}
-
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-}
-
 /* ---------- Testimonial (cream, pink accent) ---------- */
 .testimonial {
   background: var(--color-bg);

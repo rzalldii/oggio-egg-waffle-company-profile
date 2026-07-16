@@ -9,13 +9,12 @@
             <a href="#home">Home</a>
             <a href="#about">Tentang</a>
             <a href="#menu-favorit">Menu</a>
-            <a href="#galeri">Galeri</a>
             <a href="#lokasi">Lokasi</a>
         </nav>
         <div class="navbar__overlay" id="navbarOverlay" aria-hidden="true"></div>
         <div class="navbar__actions">
-            <a href="https://oggioeggwaffle.id" target="_blank" rel="noopener" class="btn btn-primary btn-sm">
-                Order Sekarang
+            <a href="#order" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-bag-shopping"></i> Order Sekarang
             </a>
             <button class="navbar__toggle" id="navbarToggle" aria-label="Buka menu navigasi" aria-expanded="false"
                 aria-controls="navbarLinks">

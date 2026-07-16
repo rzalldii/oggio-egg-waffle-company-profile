@@ -300,6 +300,15 @@
   font-feature-settings: "tnum" 1;
 }
 
+.menu-card__category {
+  display: block;
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.25rem;
+}
+
 /* ---------- Menu List Row (for full menu tables) ---------- */
 .menu-row {
   display: flex;
@@ -423,48 +432,6 @@
   color: var(--color-text-soft);
 }
 
-/* ---------- Promo Package Card ---------- */
-.promo-card {
-  background: var(--color-surface);
-  border-radius: var(--radius-lg);
-  padding: 1.75rem;
-  box-shadow: var(--shadow-md);
-  position: relative;
-  border: 3px solid transparent;
-  transition: transform var(--transition-fast), border-color var(--transition-fast);
-}
-
-.promo-card:hover {
-  transform: translateY(-4px);
-  border-color: var(--color-primary);
-}
-
-.promo-card__tag {
-  position: absolute;
-  top: -14px;
-  left: 1.5rem;
-  background: var(--color-secondary);
-  color: #fff;
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 0.85rem;
-  padding: 0.3rem 1rem;
-  border-radius: var(--radius-full);
-}
-
-.promo-card__items {
-  font-weight: 600;
-  margin: 0.75rem 0 1rem;
-  line-height: 1.5;
-}
-
-.promo-card__price {
-  font-family: var(--font-data);
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: var(--color-primary-dark);
-}
-
 /* ---------- Floating CTA button ---------- */
 .floating-cta {
   position: fixed;
@@ -506,26 +473,6 @@
   .floating-cta {
     animation: none;
   }
-}
-
-/* ---------- Gallery ---------- */
-.gallery-item {
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  position: relative;
-  aspect-ratio: 1/1;
-  box-shadow: var(--shadow-sm);
-}
-
-.gallery-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform var(--transition-med);
-}
-
-.gallery-item:hover img {
-  transform: scale(1.1);
 }
 
 /* ---------- Testimonial ---------- */

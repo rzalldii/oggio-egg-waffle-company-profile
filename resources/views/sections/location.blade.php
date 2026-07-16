@@ -34,7 +34,7 @@
                     <div>
                         <p class="location__item-title">Email</p>
                         <p class="location__item-desc">
-                            <a href="mailto:‌office@oggioeggwaffle.id">‌office@oggioeggwaffle.id</a>
+                            <a href="mailto:office@oggioeggwaffle.id">office@oggioeggwaffle.id</a>
                         </p>
                     </div>
                 </div>

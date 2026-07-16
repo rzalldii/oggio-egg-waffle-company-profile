@@ -1,13 +1,37 @@
 @php
     $favorites = [
-        ['name' => 'Kopi Gula Aren', 'price' => 16000, 'desc' => 'Espresso, susu, gula aren asli.', 'img' => 'kopi/kopi-gula-aren.jpg', 'badge' => 'bestseller'],
-        ['name' => 'Matcha Latte', 'price' => 17000, 'desc' => 'Matcha premium dipadu susu creamy.', 'img' => 'matcha/matcha-latte.jpg', 'badge' => 'bestseller'],
-        ['name' => 'Choco Hazelnut Waffle', 'price' => 13000, 'desc' => 'Egg waffle cokelat dengan hazelnut.', 'img' => 'egg-waffle/choco-hazelnut.jpg', 'badge' => null],
-        ['name' => 'Nutella Waffle', 'price' => 22000, 'desc' => 'Egg waffle dengan lelehan Nutella.', 'img' => 'egg-waffle/nutella.jpg', 'badge' => 'bestseller'],
-        ['name' => 'Lotus Waffle', 'price' => 24000, 'desc' => 'Egg waffle topping krim Lotus Biscoff.', 'img' => 'egg-waffle/lotus.jpg', 'badge' => 'new'],
-        ['name' => 'Spanish Latte', 'price' => 18000, 'desc' => 'Espresso creamy dengan kombinasi susu manis.', 'img' => 'kopi/spanish-latte.jpg', 'badge' => 'bestseller'],
-        ['name' => 'Lotus Waffle', 'price' => 24000, 'desc' => 'Egg waffle topping krim Lotus Biscoff.', 'img' => 'egg-waffle/lotus.jpg', 'badge' => 'new'],
-        ['name' => 'Spanish Latte', 'price' => 18000, 'desc' => 'Espresso creamy dengan kombinasi susu manis.', 'img' => 'kopi/spanish-latte.jpg', 'badge' => 'bestseller'],
+        [
+            'name' => 'Matcha',
+            'category' => 'Matcha Series',
+            'price' => 13000,
+            'desc' => 'Matcha premium diseduh creamy, seger dan tidak terlalu manis.',
+            'img' => 'matcha/matcha.jpg',
+            'badge' => 'bestseller',
+        ],
+        [
+            'name' => 'Choco Cheese',
+            'category' => 'Double Series',
+            'price' => 20000,
+            'desc' => 'Egg waffle cokelat dipadu keju lumer, manis gurih dalam satu gigitan.',
+            'img' => 'egg-waffle/double/choco-cheese.jpg',
+            'badge' => 'bestseller',
+        ],
+        [
+            'name' => 'Bold Americano',
+            'category' => '100% Arabica',
+            'price' => 12000,
+            'desc' => 'Espresso Arabica dengan rasa lebih bold, pilihan pecinta kopi hitam.',
+            'img' => 'arabica/bold-americano.jpg',
+            'badge' => 'bestseller',
+        ],
+        [
+            'name' => 'Choco Crunchy',
+            'category' => 'Single Series',
+            'price' => 17000,
+            'desc' => 'Egg waffle cokelat dengan taburan crunchy, renyah di setiap gigitan.',
+            'img' => 'egg-waffle/single/choco-crunchy.jpg',
+            'badge' => 'bestseller',
+        ],
     ];
 @endphp
 
@@ -17,7 +41,6 @@
             <span class="section-eyebrow">Paling Dicari</span>
             <h2 class="h-display-lg">Menu Favorit Pelanggan</h2>
         </div>
-
         <div class="menu-grid">
             @foreach ($favorites as $item)
                 <article class="menu-card">
@@ -35,6 +58,7 @@
                             loading="lazy" width="320" height="240">
                     </div>
                     <div class="menu-card__body">
+                        <span class="menu-card__category">{{ $item['category'] }}</span>
                         <h3 class="menu-card__name">{{ $item['name'] }}</h3>
                         <p class="menu-card__desc">{{ $item['desc'] }}</p>
                         <span class="menu-card__price">Rp{{ number_format($item['price'], 0, ',', '.') }}</span>

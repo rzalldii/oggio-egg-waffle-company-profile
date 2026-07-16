@@ -40,16 +40,15 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">Tentang</a></li>
                     <li><a href="#menu-favorit">Menu</a></li>
-                    <li><a href="#galeri">Galeri</a></li>
+                    <li><a href="#lokasi">Lokasi</a></li>
                 </ul>
             </div>
             <div>
                 <h4 class="footer__heading">Lainnya</h4>
                 <ul class="footer__links">
-                    <li><a href="#lokasi">Lokasi</a></li>
-                    <li><a href="#paket-hemat">Paket Hemat</a></li>
-                    <li><a href="https://oggioeggwaffle.id" target="_blank" rel="noopener">Order Online</a></li>
-                    <li><a href="#footer">Info Kemitraan</a></li>
+                    <li><a href="#menu-lengkap">Menu Full</a></li>
+                    <li><a href="#testimoni">Testimonial</a></li>
+                    <li><a href="#order">Order Online</a></li>
                 </ul>
             </div>
             <div>
