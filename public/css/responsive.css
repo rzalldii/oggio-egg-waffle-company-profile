@@ -140,4 +140,15 @@
   .hero__actions .btn {
     width: 100%;
   }
+
+  .order-cta__actions .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .order-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 280px;
+  }
 }

@@ -475,6 +475,45 @@
   }
 }
 
+/* ---------- Order Platform Card (thin border + label) ---------- */
+.order-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  aspect-ratio: 1 / 1;
+  padding: var(--space-sm);
+  border: 1.5px solid rgba(59, 36, 24, 0.15);
+  border-radius: var(--radius-md);
+  transition: transform var(--transition-fast), border-color var(--transition-fast), background var(--transition-fast);
+}
+
+.order-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-text);
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.order-card:active {
+  transform: translateY(-1px);
+}
+
+.order-card img {
+  width: 100%;
+  max-width: 48px;
+  height: auto;
+  object-fit: contain;
+}
+
+.order-card__label {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: var(--color-text);
+  text-align: center;
+}
+
 /* ---------- Testimonial ---------- */
 .testimonial-card {
   background: var(--color-surface);

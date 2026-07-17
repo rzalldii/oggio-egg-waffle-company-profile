@@ -121,7 +121,7 @@
                 <span aria-hidden="true"><i class="fa-solid fa-mug-hot"></i></span> Drink
             </button>
             <button type="button" class="tab-pill" data-tab-target="panel-egg-waffle" role="tab" aria-selected="false">
-                <span aria-hidden="true"><i class="fa-solid fa-cookie"></i></span> Egg Waffle
+                <span aria-hidden="true"><i class="fa-solid fa-cookie-bite"></i></span> Egg Waffle
             </button>
         </div>
         <div class="tab-panel is-active" id="panel-drink" role="tabpanel">
