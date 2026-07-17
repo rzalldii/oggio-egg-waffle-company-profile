@@ -1,14 +1,6 @@
 @php
     $favorites = [
         [
-            'name' => 'Matcha',
-            'category' => 'Matcha Series',
-            'price' => 13000,
-            'desc' => 'Matcha premium diseduh creamy, seger dan tidak terlalu manis.',
-            'img' => 'matcha/matcha.jpg',
-            'badge' => 'bestseller',
-        ],
-        [
             'name' => 'Choco Cheese',
             'category' => 'Double Series',
             'price' => 20000,
@@ -17,19 +9,27 @@
             'badge' => 'bestseller',
         ],
         [
-            'name' => 'Bold Americano',
-            'category' => '100% Arabica',
-            'price' => 12000,
-            'desc' => 'Espresso Arabica dengan rasa lebih bold, pilihan pecinta kopi hitam.',
-            'img' => 'arabica/bold-americano.jpg',
-            'badge' => 'bestseller',
-        ],
-        [
             'name' => 'Choco Crunchy',
             'category' => 'Single Series',
             'price' => 17000,
             'desc' => 'Egg waffle cokelat dengan taburan crunchy, renyah di setiap gigitan.',
             'img' => 'egg-waffle/single/choco-crunchy.jpg',
+            'badge' => 'bestseller',
+        ],
+        [
+            'name' => 'Matcha',
+            'category' => 'Matcha Series',
+            'price' => 13000,
+            'desc' => 'Matcha premium diseduh creamy, seger dan tidak terlalu manis.',
+            'img' => 'matcha/matcha.jpg',
+            'badge' => 'bestseller',
+        ],
+        [
+            'name' => 'Bold Americano',
+            'category' => 'Freshly Brew',
+            'price' => 12000,
+            'desc' => 'Espresso Arabica dengan rasa lebih bold, pilihan pecinta kopi hitam.',
+            'img' => 'arabica/bold-americano.jpg',
             'badge' => 'bestseller',
         ],
     ];

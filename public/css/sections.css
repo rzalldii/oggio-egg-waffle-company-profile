@@ -134,24 +134,6 @@
   gap: 1.5rem;
 }
 
-/* ---------- Menu Full (tabs, cream bg) ---------- */
-.menu-full {
-  background: var(--color-bg);
-}
-
-.menu-full__panel-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0 3rem;
-}
-
-.menu-full__col-title {
-  font-family: var(--font-display);
-  font-size: 1.1rem;
-  color: var(--color-primary-dark);
-  margin-bottom: 0.5rem;
-}
-
 /* ---------- Order CTA (standalone section, yellow block) ---------- */
 .order-cta {
   background: var(--color-accent);
@@ -226,7 +208,7 @@
   display: grid;
   grid-template-columns: 1fr 1.1fr;
   gap: 2.5rem;
-  align-items: stretch;
+  align-items: center;
 }
 
 .location__info {
@@ -288,6 +270,24 @@
   height: 100%;
   min-height: 320px;
   border: none;
+}
+
+.location__branch+.location__branch {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+.location__branch-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  color: var(--color-primary-dark);
+  margin-bottom: var(--space-md);
+  text-align: center;
 }
 
 /* ---------- Franchise CTA strip ---------- */

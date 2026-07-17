@@ -1,9 +1,9 @@
 @php
     $orderPlatforms = [
-        ['name' => 'Qpon', 'logo' => 'qpon.png', 'url' => 'https://qpon.id/platform/merchant?poiId=901604485129566000&channel_id=1'],
         ['name' => 'GoFood', 'logo' => 'gofood.png', 'url' => 'https://gofood.link/a/GxN12UY'],
         ['name' => 'ShopeeFood', 'logo' => 'shopeefood.png', 'url' => 'https://shopee.co.id/universal-link/now-food/shop/1435206?deep_and_deferred=1&shareChannel=copy_link'],
         ['name' => 'GrabFood', 'logo' => 'grabfood.png', 'url' => 'https://r.grab.com/g/2-1-6-C2TDNBMFG623CN'],
+        ['name' => 'Qpon', 'logo' => 'qpon.png', 'url' => 'https://qpon.id/platform/merchant?poiId=901604485129566000&channel_id=1'],
     ];
 @endphp
 

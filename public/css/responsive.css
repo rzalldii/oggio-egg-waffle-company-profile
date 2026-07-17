@@ -15,11 +15,6 @@
     grid-template-columns: 1fr;
   }
 
-  .menu-full__panel-grid {
-    grid-template-columns: 1fr;
-    gap: 2rem 0;
-  }
-
   .location__inner {
     grid-template-columns: 1fr;
   }

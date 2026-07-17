@@ -309,38 +309,6 @@
   margin-bottom: 0.25rem;
 }
 
-/* ---------- Menu List Row (for full menu tables) ---------- */
-.menu-row {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 0.85rem 0;
-  border-bottom: 1px dashed var(--color-border);
-}
-
-.menu-row:last-child {
-  border-bottom: none;
-}
-
-.menu-row__name {
-  font-weight: 600;
-  font-size: 0.98rem;
-}
-
-.menu-row__name .badge {
-  margin-left: 0.5rem;
-  vertical-align: middle;
-}
-
-.menu-row__price {
-  font-family: var(--font-data);
-  font-weight: 700;
-  font-feature-settings: "tnum" 1;
-  color: var(--color-primary-dark);
-  white-space: nowrap;
-}
-
 /* ---------- Tabs / Pills for menu filter ---------- */
 .tab-group {
   display: flex;

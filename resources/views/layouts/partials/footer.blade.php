@@ -44,18 +44,17 @@
                 </ul>
             </div>
             <div>
-                <h4 class="footer__heading">Lainnya</h4>
+                <h4 class="footer__heading">Cabang 1</h4>
                 <ul class="footer__links">
-                    <li><a href="#menu-lengkap">Menu Full</a></li>
-                    <li><a href="#testimoni">Testimonial</a></li>
-                    <li><a href="#order">Order Online</a></li>
+                    <li>Jl. Siwalankerto No.128A, Siwalankerto, Kec. Wonocolo, Surabaya</li>
+                    <li>Selasa - Minggu, 11:00 - 23:00 WIB</li>
                 </ul>
             </div>
             <div>
-                <h4 class="footer__heading">Kontak</h4>
+                <h4 class="footer__heading">Cabang 2</h4>
                 <ul class="footer__links">
-                    <li>Jl. Siwalankerto No. 128 A, Surabaya</li>
-                    <li>Senin - Sabtu, 13:00 - 23:00 WIB</li>
+                    <li>Jl. Tenggilis Mejoyo AN No.25, Kali Rungkut, Kec. Rungkut, Surabaya</li>
+                    <li>Rabu - Senin, 12:00 - 22:00 WIB</li>
                 </ul>
             </div>
         </div>
