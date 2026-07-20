@@ -5,8 +5,8 @@
             <span class="hero__eyebrow"><i class="fa-solid fa-utensils"></i> Bubble Waffle & Kopi Arabica</span>
             <h1 class="h-display-xl hero__title">Waffle X Kopi,<br>Mulai Rp10.000!</h1>
             <p class="hero__subtitle">
-                Egg waffle fresh dibuat per pesanan, dipadukan kopi 100% Arabica.
-                Halal Indonesia, harga bersahabat untuk anak muda Surabaya.
+                Freshly made, crispy, fluffy, dan penuh rasa. Oggio Egg Waffle hadir dengan berbagai pilihan topping dan
+                minuman yang siap bikin harimu lebih manis. Happiness in every bite!
             </p>
             <div class="hero__actions">
                 <a href="#menu-favorit" class="btn btn-outline-light">Lihat Menu</a>

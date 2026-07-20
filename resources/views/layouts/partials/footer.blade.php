@@ -17,8 +17,9 @@
                         height="40" loading="lazy">
                     <span>Oggio Egg Waffle</span>
                 </div>
-                <p class="footer__desc">Kopi 100% Arabica & Hong Kong egg waffle fresh made. Halal Indonesia. Kopi X
-                    Waffle mulai Rp10.000.</p>
+                <p class="footer__desc">Freshly made, crispy, fluffy, dan penuh rasa. Oggio Egg Waffle hadir dengan
+                    berbagai pilihan topping dan minuman yang siap bikin harimu lebih manis. Happiness in every bite!
+                </p>
                 <div class="footer__social">
                     <a href="https://www.facebook.com/oggioeggwaffle.id" aria-label="Facebook Oggio Egg Waffle"
                         target="_blank" rel="noopener">
